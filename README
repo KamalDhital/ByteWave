@@ -1,0 +1,38 @@
+# Program Name:  College Team Event Analyzer 
+
+
+## Description:
+This program analyzes the results of various events for college teams over multiple years. It determines:
+1. The number of events each team won each year.
+2. The total points each team scored each year.
+3. The top team each year based on the number of wins, and in case of a tie, the total points.
+
+
+## Program Structure:
+1. analyze_scores.c: Contains the main() function that processes input files and outputs the results.
+2. analysis_functions.c: Contains helper functions used in the analysis.
+3. analysis_functions.h: Header file with function prototypes and documentation.
+4. Makefile: Script for compiling the program.
+5. scores19.txt, scores20.txt, scores21.txt, scores22.txt, scores23.txt: Input files containing event data.
+
+
+## Compilation and Execution:
+- Compile the program on terminal using: make
+- Run the program after compiling with: ./analyze_scores scores19.txt scores20.txt scores21.txt scores22.txt scores23.txt results.txt
+
+Program output prints on terminal in the format as below:
+                     The top team of 2019 was Team 10.
+                     The top team of 2020 was Team 10.
+                     The top team of 2021 was Team 5.
+                     The top team of 2022 was Team 5.
+                     The top team of 2023 was Team 6
+
+The results.txt file generates on same directory after program execution. 
+
+
+## Additional Details: 
+                    To write this program, codes references was taken consideration from ideas and hints provided on lab instructions.
+
+
+
+
